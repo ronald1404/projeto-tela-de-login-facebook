@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(240, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.painel{
+    text-align: center;
+    background-color: white; 
+    position: absolute; 
+    padding: 14px;
+    border-radius: 8px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+input{
+    background: transparent;
+    border-style:inset;
+    font-size: 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    border-color: none;
+    width: 300px;
+    box-shadow: none;
+    padding: 15px;
+}
+.logo-facebook{
+    text-align: center;
+    margin: auto;
+    
+}
+#entrar{
+    border: none;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border-radius: 6px;
+    padding: 16px;
+    left: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    width: 332px;
+
+}
+#criar-conta{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgb(17, 184, 26);
+    color: white;
+    border-radius: 6px;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100%;
+}
+a{
+    color: #385898;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;  
+    cursor: pointer;
+    text-decoration-line: none;
+}
